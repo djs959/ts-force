@@ -1,12 +1,12 @@
 {
-  "name": "ts-force",
+  "name": "@djs959/ts-force",
   "version": "3.4.4",
   "description": "a typescript client for connecting with salesforce APIs",
   "main": "build/index.js",
   "typings": "build/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChuckJonas/ts-force.git"
+    "url": "git+https://github.com/djs959/ts-force.git"
   },
   "files": [
     "build/**/*",
