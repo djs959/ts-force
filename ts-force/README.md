@@ -2,6 +2,8 @@
 
 [![alt text](https://travis-ci.org/ChuckJonas/ts-force.svg?branch=master)](https://travis-ci.org/ChuckJonas/ts-force) [![alt text](https://img.shields.io/npm/v/ts-force.svg)](https://www.npmjs.com/package/ts-force) [![alt text](https://img.shields.io/badge/license-BSD--3--CLAUSE-blue.svg)](https://github.com/ChuckJonas/ts-force/blob/master/LICENSE)
 
+**NOTE: @djs959/ts-force is a modified version of ts-force to usuage issues in my app, and not frequently updated. It's not recommended for use back others. **
+
 A client/ORM for connecting with salesforce APIs written in typescript, which also provides types & field mappings for your salesforce `sObjects`.
 
 **NOTE:** This repository has been refactored to include both `ts-force` and `ts-force-gen`.
