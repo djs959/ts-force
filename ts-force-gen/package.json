@@ -7,6 +7,12 @@
   "bin": {
     "ts-force-gen": "build/index.js"
   },
+  "files": [
+    "build/**/*",
+    "src/**/*",
+    "README.md",
+    "LICENSE"
+  ]
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ChuckJonas/ts-force.git"
