@@ -15,6 +15,12 @@
     "tagNext": "npm dist-tag add ts-force@$npm_package_version && npm dist-tag add ts-force-gen@$npm_package_version",
     "publishBoth": "npm run publishRuntime && npm run publishGen && npm run tag"
   },
+  "files": [
+    "build/**/*",
+    "src/**/*",
+    "README.md",
+    "LICENSE"
+  ]
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ChuckJonas/ts-force.git"
