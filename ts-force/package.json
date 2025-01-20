@@ -8,6 +8,12 @@
     "type": "git",
     "url": "git+https://github.com/ChuckJonas/ts-force.git"
   },
+  "files": [
+    "build/**/*",
+    "src/**/*",
+    "README.md",
+    "LICENSE"
+  ]
   "keywords": [
     "salesforce",
     "typescript",
