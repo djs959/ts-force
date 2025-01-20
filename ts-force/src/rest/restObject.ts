@@ -51,7 +51,14 @@ export abstract class RestObject extends SObject {
 
   constructor(type: string, client?: Rest) {
     super(type, client);
-    this._client = client || new Rest();
+
+    // Use Object.defineProperty to make _client non-enumerable
+        Object.defineProperty(this, '_client', {
+            value: client || new Rest(), // Assign the Rest instance
+            enumerable: false,          // Prevents it from being included in JSON.stringify
+            writable: true,             // Allows updates to the _client property
+            configurable: true          // Allows the property to be reconfigured later if necessary
+        });
   }
 
   protected initObject(fields?: Partial<FieldProps<RestObject>>) {
