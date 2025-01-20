@@ -20,7 +20,7 @@
     "src/**/*",
     "README.md",
     "LICENSE"
-  ]
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ChuckJonas/ts-force.git"
